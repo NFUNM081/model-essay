@@ -46,9 +46,30 @@
 ### 1. 产品原型图
 
 
-①分类模块
+① 分类模块
 ![分类模块](https://images.gitee.com/uploads/images/2019/1211/025821_98f767eb_1922090.png "1cc27b129252264e10c219999c452f4.png")
 
+② 拍照模块
+![拍照模块](https://images.gitee.com/uploads/images/2019/1211/030006_5e398155_1922090.png "871e898d438d0636310839e9c163750.png")
+
+  拍照页面
+  ![拍照页面](https://images.gitee.com/uploads/images/2019/1211/030112_27451858_1922090.png "a9479eb2108b1ab0860efdf36d09636.png")
+ 
+  我的相册页面
+  ![我的相册](https://images.gitee.com/uploads/images/2019/1211/030216_2fcb84f0_1922090.png "c5d5506e3f1202ad7e54da0e08f0b52.png")
+  
+  手写文字识别页面
+  ![手写文字识别](https://images.gitee.com/uploads/images/2019/1211/030327_b46de446_1922090.png "0d0b9cffd615b1cb882c61c1f449dba.png")
+      
+  发布页面
+  ![发布页面](https://images.gitee.com/uploads/images/2019/1211/030424_4459c496_1922090.png "a2332f1ac905d0ca01be4806bee6bc4.png")
+  
+  发布成功页面 
+  ![发布成功](https://images.gitee.com/uploads/images/2019/1211/030504_17484ecb_1922090.png "3c6c7bd2b128ea835a4b8e3917cc91b.png")
+
+③ 我模块
+![我模块](https://images.gitee.com/uploads/images/2019/1211/030550_369c5484_1922090.png "d8587ad31abfdfb3cd6661652091f59.png")
+  
 ### 2. 产品结构图
 ### 3. 产品流程图
 
