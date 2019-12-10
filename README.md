@@ -105,8 +105,69 @@ print('识别结果为: %s' % res_words)
 - （通用版）请求URL: https://aip.baidubce.com/rpc/2.0/nlp/v2/comment_tag
 - 输入
 ```
+import urllib, urllib.request, sys
+import ssl
 
+# client_id 为官网获取的AK， client_secret 为官网获取的SK
+host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=aYZxrzH8qGVBcwSAZOVdhivS&client_secret=U206MT7Kjb22dGvFWIU1zHDQE2YxLaFZ'
+request = urllib.request.Request(host)
+request.add_header('Content-Type', 'application/json; charset=UTF-8')
+response = urllib.request.urlopen(request)
+content = response.read()
+if (content):
+    print(content)
 ```
+```
+import json
+{
+"title":"欧洲冠军联赛",
+"content": "欧洲冠军联赛是欧洲足球协会联盟主办的年度足球比赛，代表欧洲俱乐部足球最高荣誉和水平，被认为是全世界最高素质、最具影响力以及最高水平的俱乐部赛事，亦是世界上奖金最高的足球赛事和体育赛事之一。"
+}
+request_url = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/text_cls/orgclassify"
+params = json.dumps({"text":text,"top_num": 6}).encode("utf-8")
+
+access_token = '24.d10428f4f1c00f70b467c81f55779680.2592000.1578586839.282335-17992576’
+request_url = 'https://aip.baidubce.com/rpc/2.0/ai_custom/v1/text_cls/orgclassify?access_token=24.d10428f4f1c00f70b467c81f55779680.2592000.1578586839.282335-17992576'
+request = urllib.request.Request(url=request_url, data=params)
+request.add_header('Content-Type', 'application/json')
+response = urllib.request.urlopen(request)
+content = response.read()
+if content:
+    resu=eval(str(content,'utf-8'))
+    
+    print (resu['results'][0]['name'],resu['results'][0]['score'])
+    print(resu['results'])
+```
+- 输出
+```
+{
+    "log_id": 3591049593939822907,
+    "item": {
+        "lv2_tag_list": [
+            {
+                "score": 0.877436,
+                "tag": "足球"
+            },
+            {
+                "score": 0.793682,
+                "tag": "国际足球"
+            },
+            {
+                "score": 0.775911,
+                "tag": "英超"
+            }
+        ],
+        "lv1_tag_list": [
+            {
+                "score": 0.824329,
+                "tag": "体育"
+            }
+        ]
+    }
+}
+```
+
+
 ### 2. 使用比较分析
 
 ### 3. 使用后风险报告
