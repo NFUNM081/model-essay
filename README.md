@@ -47,7 +47,66 @@
 
 ## 三、API 产品使用关键AI或机器学习之API的输出入展示
 ### 1. 使用水平
+1. 百度API：
+计算机视觉-文字识别——手写文字识别
+- 接口描述：对手写中文汉字、数字进行识别
+- HTTP 方法：POST
+- 请求URL： https://aip.baidubce.com/rest/2.0/ocr/v1/handwriting
+- 输入
+```
+代码示例
+import json
+import requests
+import base64
+import urllib.parse
 
+APP_ID = '17992576'
+API_KEY ='aYZxrzH8qGVBcwSAZOVdhivS'
+SECRECT_KEY = 'U206MT7Kjb22dGvFWIU1zHDQE2YxLaFZ'
+
+# 获取token
+url = 'https://aip.baidubce.com/oauth/2.0/token'
+body = {'grant_type': 'client_credentials',
+        'client_id': API_KEY,
+        'client_secret': SECRECT_KEY
+        }
+
+req = requests.post(url=url, data=body)
+token = json.loads(req.content)['access_token']
+
+# 获取百度api识别结果
+ocr_url = 'https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic?access_token=%s'%token
+headers = {'Content-Type': 'application/x-www-form-urlencoded'}
+
+# 读取图片并进行base64加密
+body = base64.b64encode(open('./handwrite.png' ,'rb').read())
+# 进行urlencode
+data = urllib.parse.urlencode({'image': body})
+
+# post请求
+r = requests.post(url=ocr_url, headers=headers, data=data)
+
+# 输出请求结果
+print('请求码为: %s' %r.status_code)
+res_words = json.loads(r.content)['words_result'][0]['words']
+print('识别结果为: %s' % res_words)
+```
+- 输出
+```
+请求码为: 200
+识别结果为: 《演讲的力量》
+```
+- 需要逐行输出
+
+2. 百度API：
+自然语言处理——文章分类
+- 接口描述：对文章按照内容类型进行自动分类
+- HTTP 方法：POST
+- （通用版）请求URL: https://aip.baidubce.com/rpc/2.0/nlp/v2/comment_tag
+- 输入
+```
+
+```
 ### 2. 使用比较分析
 
 ### 3. 使用后风险报告
