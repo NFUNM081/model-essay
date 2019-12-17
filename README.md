@@ -47,6 +47,10 @@
 | 用户想要寻找不同类型的范文	| 文章分类	| 次重要 |
 
 ## 二、原型
+
+### [原型文档交互展示](https://nfunm081.github.io/prototype-model-essay/)
+### [原型文档下载区](https://github.com/NFUNM081/prototype-model-essay)
+
 ### 1. 产品原型图
 
 
