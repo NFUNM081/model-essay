@@ -20,15 +20,17 @@
 ### 2. 核心价值
 本产品着眼于解决用户手打文字浪费时间的问题，用户不知道去哪里寻找不同类型的范文的问题，以及浪费纸张的问题。
 
-### 用户
+### 3. 用户
 需要寻找不同类别的范文作为参考的人，以及需要不想浪费打文字时间的用户。
 
-### 3. 核心价值与用户痛点
+### 4.使用场景 
+
+### 5. 核心价值与用户痛点
 - 老师要评讲作文，要帮每位同学都复印一份范文，浪费很多纸张。
 - 老师即使帮每位同学都复印一份范文,范文的字体可能并不那么端正，同学们看得不太清晰。
 - 老师讲范文逐字打成电子版要浪费很多时间。
 - 同学们寻找不同类型的范文，不知道要去哪个地方全部找得到。
-### 4. 人工智能概率性与用户痛点
+### 6. 人工智能概率性与用户痛点
 #### 百度文字识别技术-手写文字识别，有二个保证：
 - 准确率高:依托百度优秀的图像处理技术和海量优质数据，支持识别各种不规则手写字体，并对字迹潦草、模糊等情况进行专项优化，手写中文识别准确率可达90%以上。
 - 服务稳定:依托百度云技术实力，提供高可靠性、弹性可伸缩、高并发承载的文字识别服务，服务可用性高达99.99%。
@@ -39,7 +41,7 @@
 - 粒度完整：文章主题分类包含一级分类和二级分类两种粒度，层次清晰，满足各类应用需求。
 
 #### 所以，该产品利用了手写文字识别通过拍出来的图片识别书图片中的手写文字，文章分类通过对文章按照内容类型进行自动分类。这两个功能技术转换精确率较高，都达到了90%，甚至95%，普遍情况下都可以使用。
-### 5. 需求列表与人工智能API加值
+### 7. 需求列表与人工智能API加值
 | 用户案例	| API接口	| 重要程度 |
 | -- | -- | -- |
 | 用户不想输入很多的文字 	| 手写文字识别 	| 重要 |
@@ -55,38 +57,46 @@
 ### 1. 产品原型图
 
 
-① 分类模块
-![分类模块](https://images.gitee.com/uploads/images/2019/1211/025821_98f767eb_1922090.png "1cc27b129252264e10c219999c452f4.png")
+#### ① 分类模块
+![分类模块](https://images.gitee.com/uploads/images/2019/1222/035400_dce18c35_1922090.png "分类模块.png")
 
-② 拍照模块
-![拍照模块](https://images.gitee.com/uploads/images/2019/1211/030006_5e398155_1922090.png "871e898d438d0636310839e9c163750.png")
 
-  拍照页面
-  ![拍照页面](https://images.gitee.com/uploads/images/2019/1211/030112_27451858_1922090.png "a9479eb2108b1ab0860efdf36d09636.png")
- 
-  我的相册页面
-  ![我的相册](https://images.gitee.com/uploads/images/2019/1211/030216_2fcb84f0_1922090.png "c5d5506e3f1202ad7e54da0e08f0b52.png")
-  
-  手写文字识别页面
-  ![手写文字识别](https://images.gitee.com/uploads/images/2019/1211/030327_b46de446_1922090.png "0d0b9cffd615b1cb882c61c1f449dba.png")
-      
-  发布页面
-  ![发布页面](https://images.gitee.com/uploads/images/2019/1211/030424_4459c496_1922090.png "a2332f1ac905d0ca01be4806bee6bc4.png")
-  
-  发布成功页面 
-  ![发布成功](https://images.gitee.com/uploads/images/2019/1211/030504_17484ecb_1922090.png "3c6c7bd2b128ea835a4b8e3917cc91b.png")
+![例：社会类文章](https://images.gitee.com/uploads/images/2019/1222/035419_dedb7e16_1922090.png "例：社会类文章.png")
 
-③ 我模块
-![我模块](https://images.gitee.com/uploads/images/2019/1211/030550_369c5484_1922090.png "d8587ad31abfdfb3cd6661652091f59.png")
+#### ② 拍照模块
+![拍照模块](https://images.gitee.com/uploads/images/2019/1222/035432_29e5d51b_1922090.png "拍照模块.png")
+
+![拍照](https://images.gitee.com/uploads/images/2019/1222/035447_765d5639_1922090.png "拍照.png")
+
+![我的相册](https://images.gitee.com/uploads/images/2019/1222/035508_190ebf54_1922090.png "我的相册.png")
+
+![手写文字识别](https://images.gitee.com/uploads/images/2019/1222/035531_845c7653_1922090.png "手写文字识别.png")
+
+![发布页面](https://images.gitee.com/uploads/images/2019/1222/035559_af18bdd7_1922090.png "发布页面.png")
+
+### ③ 我模块
+![我模块](https://images.gitee.com/uploads/images/2019/1222/035617_b14db0a4_1922090.png "我模块.png")
+
+![个人资料](https://images.gitee.com/uploads/images/2019/1222/035638_3296c999_1922090.png "个人资料.png")
+
+![头像](https://images.gitee.com/uploads/images/2019/1222/035654_71d47c66_1922090.png "头像.png")
+
+![用户名](https://images.gitee.com/uploads/images/2019/1222/035710_cc71a3a9_1922090.png "用户名.png")
+
+![文章银行](https://images.gitee.com/uploads/images/2019/1222/035735_8c960694_1922090.png "文章银行.png")
+
+![我的发布](https://images.gitee.com/uploads/images/2019/1222/035752_ba566a0d_1922090.png "我的发布.png")
+
+![我的客服](https://images.gitee.com/uploads/images/2019/1222/035810_2fe1ef4b_1922090.png "我的客服.png")
   
 ### 2. 产品功能结构图
-![范文-功能结构图](https://images.gitee.com/uploads/images/2019/1222/000642_6aabff71_1922090.png "范文-功能结构图.png")
+![范文APP功能结构图](https://images.gitee.com/uploads/images/2019/1222/035837_bebf3a76_1922090.png "范文APP功能结构图.png")
 
 ### 3. 产品信息结构图
-![范文-信息结构图](https://images.gitee.com/uploads/images/2019/1222/000702_469604f3_1922090.png "范文-信息结构图.png")
+![范文APP信息结构图](https://images.gitee.com/uploads/images/2019/1222/035852_1b084f5f_1922090.png "范文APP信息结构图.png")
 
 ### 4. 产品流程图
-![范文-产品流程图](https://images.gitee.com/uploads/images/2019/1222/000616_8f1fd889_1922090.png "范文-产品流程图.png")
+![范文APP产品流程图](https://images.gitee.com/uploads/images/2019/1222/035823_745034bf_1922090.png "范文APP产品流程图.png")
 
 ## 三、API 产品使用关键AI或机器学习之API的输出入展示
 ### 1. 使用水平
