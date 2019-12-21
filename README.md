@@ -79,11 +79,13 @@
 ![我模块](https://images.gitee.com/uploads/images/2019/1211/030550_369c5484_1922090.png "d8587ad31abfdfb3cd6661652091f59.png")
   
 ### 2. 产品功能结构图
+![范文-功能结构图](https://images.gitee.com/uploads/images/2019/1222/000642_6aabff71_1922090.png "范文-功能结构图.png")
 
 ### 3. 产品信息结构图
+![范文-信息结构图](https://images.gitee.com/uploads/images/2019/1222/000702_469604f3_1922090.png "范文-信息结构图.png")
 
 ### 4. 产品流程图
-
+![范文-产品流程图](https://images.gitee.com/uploads/images/2019/1222/000616_8f1fd889_1922090.png "范文-产品流程图.png")
 
 ## 三、API 产品使用关键AI或机器学习之API的输出入展示
 ### 1. 使用水平
