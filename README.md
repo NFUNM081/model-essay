@@ -61,7 +61,7 @@
 
 
 ### 1. 产品流程图
-![范文APP产品流程图](https://images.gitee.com/uploads/images/2019/1222/035823_745034bf_1922090.png "范文APP产品流程图.png")
+![范文APP产品流程图](https://images.gitee.com/uploads/images/2019/1230/161438_158db02e_1922090.jpeg "范文APP产品流程图.jpg")
 
 ### 2. 产品功能结构图
 ![范文APP功能结构图](https://images.gitee.com/uploads/images/2019/1222/035837_bebf3a76_1922090.png "范文APP功能结构图.png")
