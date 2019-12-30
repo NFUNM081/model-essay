@@ -59,49 +59,15 @@
 ### [原型文档交互展示](https://nfunm081.github.io/prototype-model-essay/)
 ### [原型文档下载区](https://github.com/NFUNM081/prototype-model-essay)
 
-### 1. 产品原型图
 
+### 1. 产品流程图
+![范文APP产品流程图](https://images.gitee.com/uploads/images/2019/1222/035823_745034bf_1922090.png "范文APP产品流程图.png")
 
-#### ① 分类模块
-![分类模块](https://images.gitee.com/uploads/images/2019/1222/035400_dce18c35_1922090.png "分类模块.png")
-
-
-![例：社会类文章](https://images.gitee.com/uploads/images/2019/1222/035419_dedb7e16_1922090.png "例：社会类文章.png")
-
-#### ② 拍照模块
-![拍照模块](https://images.gitee.com/uploads/images/2019/1222/035432_29e5d51b_1922090.png "拍照模块.png")
-
-![拍照](https://images.gitee.com/uploads/images/2019/1222/035447_765d5639_1922090.png "拍照.png")
-
-![我的相册](https://images.gitee.com/uploads/images/2019/1222/035508_190ebf54_1922090.png "我的相册.png")
-
-![手写文字识别](https://images.gitee.com/uploads/images/2019/1222/035531_845c7653_1922090.png "手写文字识别.png")
-
-![发布页面](https://images.gitee.com/uploads/images/2019/1222/035559_af18bdd7_1922090.png "发布页面.png")
-
-### ③ 我模块
-![我模块](https://images.gitee.com/uploads/images/2019/1222/035617_b14db0a4_1922090.png "我模块.png")
-
-![个人资料](https://images.gitee.com/uploads/images/2019/1222/035638_3296c999_1922090.png "个人资料.png")
-
-![头像](https://images.gitee.com/uploads/images/2019/1222/035654_71d47c66_1922090.png "头像.png")
-
-![用户名](https://images.gitee.com/uploads/images/2019/1222/035710_cc71a3a9_1922090.png "用户名.png")
-
-![文章银行](https://images.gitee.com/uploads/images/2019/1222/035735_8c960694_1922090.png "文章银行.png")
-
-![我的发布](https://images.gitee.com/uploads/images/2019/1222/035752_ba566a0d_1922090.png "我的发布.png")
-
-![我的客服](https://images.gitee.com/uploads/images/2019/1222/035810_2fe1ef4b_1922090.png "我的客服.png")
-  
 ### 2. 产品功能结构图
 ![范文APP功能结构图](https://images.gitee.com/uploads/images/2019/1222/035837_bebf3a76_1922090.png "范文APP功能结构图.png")
 
 ### 3. 产品信息结构图
 ![范文APP信息结构图](https://images.gitee.com/uploads/images/2019/1222/035852_1b084f5f_1922090.png "范文APP信息结构图.png")
-
-### 4. 产品流程图
-![范文APP产品流程图](https://images.gitee.com/uploads/images/2019/1222/035823_745034bf_1922090.png "范文APP产品流程图.png")
 
 ## 三、API 产品使用关键AI或机器学习之API的输出入展示
 ### 1. 使用水平
@@ -154,7 +120,7 @@ print('识别结果为: %s' % res_words)
 请求码为: 200
 识别结果为: 《演讲的力量》
 ```
-- 需要逐行输出
+需要逐行输出
 
 2. 百度API：
 自然语言处理——文章分类
