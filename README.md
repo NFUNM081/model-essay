@@ -78,7 +78,6 @@
 - 请求URL： https://aip.baidubce.com/rest/2.0/ocr/v1/handwriting
 - 输入
 ```
-代码示例
 import json
 import requests
 import base64
